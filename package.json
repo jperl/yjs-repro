@@ -1,0 +1,19 @@
+{
+  "name": "yjs-repro",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "exports": "./main.js",
+  "scripts": {
+    "bug": "BUG=1 node main.js",
+    "ok": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hocuspocus/server": "^1.0.0-alpha.53",
+    "ws": "^6.2.2",
+    "y-websocket": "1.3.14"
+  }
+}
